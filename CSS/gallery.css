@@ -1,0 +1,30 @@
+#heading {
+	margin-top: -110px;
+}
+.section-heading, .section-img {
+	margin: 0 80px;
+}
+.section-heading {
+	text-align: center;
+	color: #60606E;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	max-height: 30px;
+}
+.section-heading img {
+	max-height: 20px;
+	max-width: 70px;
+	margin: 10px -70px 0 0;
+}
+#img {
+	margin: 50px 0;
+}
+.section-img img {
+	width: 300px;
+    height: 300px;
+    border: 1px solid black; 
+    margin-left: 70px;
+	margin-top: 30px;  	
+}

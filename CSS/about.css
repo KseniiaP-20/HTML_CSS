@@ -1,0 +1,277 @@
+.content-wrapper, .benefits-content-wrapper, .photo, .offer-clients-wrapper, .newsletter-wrapper {
+	margin: 0 80px;
+}
+.heading-big-1, .heading-small-1, .main-1, .heading-big-2, .heading-small-2, .main-2, .benefits-title, .benefits-title-1, .benefits-title-2, .benefits-title-3, .benefits-title-4, .benefits-title-5, .benefits-title-6, .main-2, .benefits-title-content, .team-title, .team-title-content, .offer-text, .newsletter-heading {
+	color: #60606E;
+}
+.heading-big-1, .heading-small-1, .heading-big-2, .heading-small-2, .benefits-title, .benefits-title-1, .benefits-title-2, .benefits-title-3, .benefits-title-4, .benefits-title-5, .benefits-title-6, .team-title, .newsletter-proposal-text, .newsletter-heading {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+.heading-big-1, .heading-big-2, .benefits-title, .team-title {
+	font-size: 25px;
+	max-height: 30px;
+}
+.heading-small-1, .heading-small-2, .benefits-title-1, .benefits-title-2, .benefits-title-3, .benefits-title-4, .benefits-title-5, .benefits-title-6 {
+	font-size: 10px;
+	max-height: 15px;
+}
+#section-texts {
+	height: 350px;
+	margin-top: -110px;
+}
+.content-wrapper {
+	height: 290px;
+	max-width: 100%;
+}
+.content-1 {
+	float: left;
+	max-width: 50%;
+	margin-right: 15px;
+}
+.heading-1, .heading-big-1 {
+	max-width: 170px;
+}
+.heading-1, .heading-2 {
+	height: 75px;
+}
+.heading-big-1 {
+	margin: 0;
+}
+.heading-big-1 img, .heading-big-2 img, .benefits-title img, .team-title img{
+	max-height: 20px;
+	max-width: 70px;
+	float: left;
+	margin: 10px -70px 0 0;
+}
+.heading-small-1, .heading-small-2 {
+	margin-top: 25px
+}
+.main-1 {
+	padding-right: 15px;
+}
+.main-1, .main-2 {
+	margin-top: 30px;
+	height: 200px;
+	text-align: justify;
+}
+.main-1, .main-2, .benefits-title-content, .benefits-text-1, .benefits-text-2, .benefits-text-3, .benefits-text-4, .benefits-text-5, .benefits-text-6, .team-title-content, .offer-text, .newsletter-text {
+	font-family: 'Montserrat';
+	font-size: 14px;
+	line-height: 20px;
+	text-shadow: 0 0.25px black;
+}
+.content-2 {
+	margin-left: 15px;
+	float: right;
+	max-width: 50%;
+}
+.heading-2, .heading-big-2 {
+	max-width: 400px;
+}
+.heading-big-2 {
+	margin: -305px 0 0 0;
+}
+#section-benefits {
+	height: 760px;
+	margin: 0;
+}
+.benefits-heading, .team-heading {
+	height: 90px;
+	margin: 0 300px 100px 300px;
+}
+.benefits-title, .team-title {
+	margin: 0 0 20px 230px;
+}
+.benefits-title-content, .team-title-content {
+	height: 40px;
+	text-align: center;
+}
+.benefits-content-wrapper {
+	height: 320px;
+	columns: 3 360px;
+	column-gap: 30px;
+	column-rule: none; 
+	max-width: 100%;
+}
+.benefits-6, .benefits-5, .benefits-4, .benefits-3, .benefits-2, .benefits-1 {
+	height: 135px;
+}
+.benefits-title-1, .benefits-title-2, .benefits-title-3, .benefits-title-4, .benefits-title-5, .benefits-title-6 {
+	height: 60px;
+	margin: -25px 0 0 60px;
+}
+img [alt="Картинка"] {
+	height: 40px;
+	width: 40px;
+	float: left;
+}
+.benefits-text-1, .benefits-text-2, .benefits-text-3, .benefits-text-4, .benefits-text-5, .benefits-text-6{
+	margin-top: 10px;
+	text-align: justify;
+}
+#section-team {
+	height: 890px;
+	margin: 0;
+}
+.photo {
+	height: 700px;
+	columns: 4 260px;
+	max-width: 100%
+}
+.photo-clients, .photo {
+	column-gap: 30px;
+	column-rule: none; 
+}
+.photo img, .photo-clients img {
+	border: 1px solid black;
+}
+.photo img {
+	max-width: 260px;
+	max-height: 330px;
+}
+.photo div:not(:last-child), .photo-clients div:not(:last-child) {
+	margin-bottom: 30px;
+}
+#section-greyblock {
+	height: 150px;
+	background-color: #60606E;
+	margin: 30px 80px 0 80px;
+}
+.button {
+	padding: 50px 30px 50px 0;
+	float: right;
+}
+button div {
+	font-size: 25px;
+}
+.button-text {
+	margin: 20px 40px;
+}
+#section-offer-clients {
+	height: 270px;
+}
+#section-newsletter, #section-offer-clients {
+	margin-top: 150px;
+}
+.offer-clients-wrapper {
+	max-width: 100%;
+}
+.offer {
+	max-width: 50%;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 30px; 
+}
+.offer-photo img {
+	max-width: 85px;
+	max-height: 100px;
+	margin: auto;
+	display: block;
+	border-radius: 50%;
+}
+.offer-text {
+	height: 70px;
+	text-align: center;
+	margin-top: 10px;
+}
+.offer-button {
+	max-width: 30px;
+	max-height: 100px;
+	margin: auto;
+	padding-right: 40px;
+}
+.offer-button button {
+	font-size: 15px;
+}
+.photo-clients {
+	max-width: 50%;
+	float: right;
+	margin-left: 15px;
+	columns: 3 165px;
+}
+.photo-clients img {
+	max-width: 165px;
+	max-height: 100px;
+	padding: 15px 20px; 
+}
+#section-newsletter {
+	height: 340px;
+	background-color: #7BEEC7;
+}
+.newsletter-wrapper {
+	max-width: 100%;
+	height: 240px;
+}
+.newsletter-proposal {
+	float: left;
+	height: 150px;
+	max-width: 50%;
+	margin: 50px 50px 0 0;
+}
+.newsletter-proposal-text {
+	max-height: 70px;
+	font-size: 25px;
+	text-align: left;
+	color: #fff;
+}
+.newsletter-proposal-button {
+	margin-top: 30px;
+	max-height: 50px;
+}
+.newsletter-proposal-button button {
+	background-color: #FFF;
+}
+.newsletter-proposal-button button a {
+	color: #7BEEC7;
+	padding: 0px 30px;
+}
+.button-proposal-text {
+	margin: 20px 0px;
+	width: 165px;
+}
+.newsletter {
+	float: right; 
+	margin: 50px 0 0 50px;
+	max-height: 100%;
+	max-width: 50%;
+	background-color: #FFF;
+}
+.newsletter-heading {
+	margin: 20px 0 20px 25px;
+	max-height: 55px;
+	max-width: 335px;
+	font-size: 15px;
+	line-height: 20px;
+	text-align: left;
+}
+.newsletter-text {
+	margin-left: 25px;
+	color: #999;
+	max-height: 40px;
+	width: 470px;
+	font-size: 14px;
+}
+.newsletter-form {
+	margin: 30px 25px 20px 20px;
+}
+.newsletter-form-email {
+	float: left;
+	max-width: 510px;
+	margin-bottom: 10px;
+}
+.newsletter-form-email input {
+	width: 310px;
+	height: 50px;
+}
+.newsletter-form-button {
+	float: right;
+}
+.newsletter-form-button button[type="submit"] {
+	width: 140px; 
+	height: 50px;
+}
+button[type="submit"] div {
+	font-size: 10px;
+}

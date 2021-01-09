@@ -1,0 +1,212 @@
+body {
+	max-height: 3890px;
+	width: 100%;
+	margin: 0;
+	background: #fff;
+}
+header {
+	background-image: url(../IMG_orig_2/site-hero2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	width: 100%;
+	height: 760px;
+}
+header a {
+	color: #5e5d5d;
+	font-size: 12px;
+}
+header a.disabled:hover {
+	text-decoration: none;
+}
+a.disabled {
+	cursor: default;
+}
+.container, .title, .footer-wrapper {
+	margin: 0 80px;
+}
+.container {
+	height: 100px;
+}
+.logo{
+	padding-top: 50px;
+}
+.logo img {
+	margin-top: -10px;
+	max-height: 20px;
+	max-width: 70px;
+}
+.menu {
+	margin-top: -30px;
+	max-height: 20px;
+}
+ul {
+	text-transform: uppercase;
+}
+.menu ul {
+	text-align: right;
+} 
+li {
+	list-style-type: none;
+	display: inline;
+	padding: 0 5px;
+}
+.menu li {
+	padding: 0 5px;
+}
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+nav a:hover{
+	text-decoration: underline;
+}
+.title {
+	height: 400px;
+	text-align: center;
+}
+.title-big, .title-small {
+	color: #60606E;
+}
+.title-big, .title-small, .copyright {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+.title-big {
+	font-size: 25px;
+	max-height: 30px;
+	margin: 170px 0px 30px 0px;
+}
+.title-small {
+	font-size: 10px;
+	max-height: 15px;
+}
+button {
+	background-color: #7BEEC7;
+	border:none;
+}
+button a, button[type="submit"] {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+input {
+	color: #CDCDCD;
+	text-transform: uppercase;
+	font-size: 10px;
+	padding-left: 20px;
+}
+input:hover {
+	border-color: black;
+}
+footer {
+	height: 155px;
+	margin: 0;
+}
+.footer-wrapper {
+	max-width: 100%;
+}
+.footer-row1 {
+	margin: 50px 0; 
+	max-height: 15px
+}
+.footer-menu {
+	float: left;
+	margin-top: -10px;
+}
+.footer-menu ul {
+	text-align: left;
+}
+.footer-menu li {
+	padding: 0 30px;
+}
+.copyright {
+	float: right;
+	margin-top: 10px;
+}
+footer a, .copyright {
+	font-size: 10px;
+	color: #9A9A9A;
+}
+footer a:hover {
+	color: #7BEEC7;
+}
+footer a.disabled:hover {
+	color: #9A9A9A;
+	text-decoration: none;
+}	
+.footer-map {
+	float: left;
+	width: 50%;
+	height: 20px;	
+	margin: 10px 0 0 50px;
+}
+.footer-form {
+	columns: 2 auto;
+	column-gap: 0;
+	column-rule: none;
+}
+.footer-row2, .footer-input {
+}
+.footer-button {
+	float: left;		
+}
+.footer-input input {
+	height: 20px;
+	width: 150px;
+}
+.footer-input {
+	float: left;
+}	
+.footer-button button {
+	height: 20px;
+	font-size: 10px;
+}
+.footer-social {
+	width: 50%;
+	margin: 10px 50px 0 0;
+	float: right;
+	max-width: 240px;
+	height: 20px;
+	columns: 6 auto;
+	padding-right: 40px;
+}	
+.footer-social div {
+	overflow: hidden;
+	height: 20px;
+	width: 25px;
+}
+.footer-social img {
+	margin-top: -25px;
+	margin-right: 0;
+	margin-bottom: -25px;
+}
+img[alt="RSS"] {
+	margin-left: -64px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 16px;
+	padding-top: 4px;
+}
+img[alt="Facebook"] {
+	margin-left: -25px;
+}
+img[alt="Twitter"] {
+	margin-left: -55px;
+}
+img[alt="YouTube"] {
+	margin-left: -90px;
+}
+img[alt="LinkedIn"] {
+	margin-left: -125px;
+}
+img[alt="Pinterest"] {
+	margin-left: -160px;
+}
+img[alt="Instagram"] {
+	margin-left: -195px;
+}
